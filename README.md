@@ -20,7 +20,7 @@ Follow these instructions to set up and run the project on your local machine fo
 
 Ensure you have the following installed on your local machine:
 
-- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) (you can install it using Homebrew)
 - [Gradle](https://gradle.org/install/) (optional, as the project includes the Gradle Wrapper)
 - [Git](https://git-scm.com/downloads)
 
