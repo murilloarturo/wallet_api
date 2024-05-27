@@ -16,6 +16,7 @@ class WalletController(val companyService: CompanyService) {
 
     @GetMapping("/company")
     fun retrieveCompany() : CompanyDTO {
+        Thread.sleep(3000)
         val company = companyService.retrieveCompany()
         return companyMapper.map(company)
     }
